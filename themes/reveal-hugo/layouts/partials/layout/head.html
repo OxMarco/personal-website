@@ -29,3 +29,4 @@
 <meta property="twitter:title" content="{{ or .Page.Title .Site.Title }}" />
 <meta property="twitter:description" content="{{ with .Page.Param "description" }}{{ . }}{{ end }}" />
 <meta property="twitter:image" content="{{ with .Page.Param "image" }}{{ . }}{{ else }}default-image-url{{ end }}" />
+<meta property="twitter:creator" content="{{ with .Page.Param "twitter" }}{{ . }}{{ else }}default-image-url{{ end }}" />

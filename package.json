@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "hugo server",
+    "build": "hugo -s"
+  },
+  "dependencies": {
+    "npm": "^6.14.6"
+  }
+}
+  

@@ -1,6 +1,7 @@
 +++
 title = "OxMarco"
 description = "Open source tinkerer, doing stuff at the edge of hardware and software"
+twitter="OxMarco_"
 outputs = ["Reveal"]
 [reveal_hugo]
 custom_theme = "reveal-hugo/themes/robot-lung.css"
